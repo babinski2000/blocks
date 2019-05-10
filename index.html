@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blocks</title>
+<style>
+    .in{
+            padding: 5px;
+            border: 2px solid black;
+            margin: 5px;
+    }
+       
+        .index{
+            clear: both;
+            padding: 30px;
+            max-width: 1060px;
+            margin: 20px auto;
+            overflow: auto;
+            border: 6px solid black;
+            background: white;
+            font-size: 20pt; 
+        }
+     nav a{
+        color: white;
+        text-decoration: none;
+        padding: 5px;
+        background-color: gray;
+        text-align: center;
+    }
+     nav a:hover{
+        background-color: black;
+    }
+    .image2{
+        box-sizing: border-box;
+        padding: 5px;
+        border: 2px solid black;
+        margin: 5px;
+    }
+</style>
+       <div class="index center" > 
+            <h1 id="top">Layouts</h1>
+            <nav>
+                <a href="#images">1: Images</a>
+                <a href="#lists">2: Lists</a>
+                <a href="#divs">3: Divs</a>
+            </nav>
+        </div>
+</head>
+<body>
+    <div class="index">
+            <h2 id="images">Images</h2>
+            <ul >
+                <h3>In Line Photos</h3>
+                <img src="http://via.placeholder.com/100x100" alt="ph">
+                <img src="http://via.placeholder.com/100x100" alt="ph">
+                <img src="http://via.placeholder.com/100x100" alt="ph">
+                <br li><a href="#top">top of the page</a></li>      
+            </ul>
+    </div>
+            <div class= "index">
+            
+                <h2 id="lists">Lists</h2>
+                     
+                    <ul >
+                            <h3>With 5px Padding, Border, and Margin</h3>
+                            <img src="http://via.placeholder.com/100x100" alt="ph" class="in">
+                            <img src="http://via.placeholder.com/100x100" alt="ph" class="in">
+                            <img src="http://via.placeholder.com/100x100" alt="ph" class="in">
+                            <br li><a href="#top">top of the page</a></li>      
+                        </ul>
+            </div>
+            <div class= "index">
+            
+                    <h2 id="divs">Divs</h2>
+                         
+                        <ul >
+                                <h3>With 5px Padding, Border, and Margin Box-Sizing: Border-Box</h3>
+                                <img src="http://via.placeholder.com/100x100" alt="ph" class="image2">
+                                <img src="http://via.placeholder.com/100x100" alt="ph" class="image2">
+                                <img src="http://via.placeholder.com/100x100" alt="ph" class="image2">
+                                <br li><a href="#top">top of the page</a></li>      
+                            </ul>
+                </div>
+
+
+
+    
+</body>
+</html>
